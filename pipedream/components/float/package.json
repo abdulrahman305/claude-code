@@ -1,0 +1,15 @@
+{
+  "name": "@pipedream/float",
+  "version": "0.0.3",
+  "description": "Pipedream Float Components",
+  "main": "float.app.mjs",
+  "keywords": [
+    "pipedream",
+    "float"
+  ],
+  "homepage": "https://pipedream.com/apps/float",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  }
+}

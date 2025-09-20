@@ -1,0 +1,15 @@
+{
+  "name": "@pipedream/callrail",
+  "version": "0.0.2",
+  "description": "Pipedream CallRail Components",
+  "main": "callrail.app.mjs",
+  "keywords": [
+    "pipedream",
+    "callrail"
+  ],
+  "homepage": "https://pipedream.com/apps/callrail",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  }
+}

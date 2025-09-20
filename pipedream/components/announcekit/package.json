@@ -1,0 +1,15 @@
+{
+  "name": "@pipedream/announcekit",
+  "version": "0.0.3",
+  "description": "Pipedream AnnounceKit Components",
+  "main": "announcekit.app.mjs",
+  "keywords": [
+    "pipedream",
+    "announcekit"
+  ],
+  "homepage": "https://pipedream.com/apps/announcekit",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  }
+}

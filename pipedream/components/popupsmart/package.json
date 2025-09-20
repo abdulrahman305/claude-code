@@ -1,0 +1,15 @@
+{
+  "name": "@pipedream/popupsmart",
+  "version": "0.0.2",
+  "description": "Pipedream Popupsmart Components",
+  "main": "popupsmart.app.mjs",
+  "keywords": [
+    "pipedream",
+    "popupsmart"
+  ],
+  "homepage": "https://pipedream.com/apps/popupsmart",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  }
+}

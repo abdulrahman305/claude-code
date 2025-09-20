@@ -1,0 +1,15 @@
+{
+  "name": "@pipedream/sendblue",
+  "version": "0.0.4",
+  "description": "Pipedream Sendblue Components",
+  "main": "sendblue.app.mjs",
+  "keywords": [
+    "pipedream",
+    "sendblue"
+  ],
+  "homepage": "https://pipedream.com/apps/sendblue",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  }
+}

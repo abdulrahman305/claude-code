@@ -1,0 +1,8 @@
+packages:
+  - 'types/**'
+  - 'components/**'
+  - 'helpers/**'
+  - 'platform/**'
+  - 'packages/**'
+  - 'scripts/**'
+  - 'modelcontextprotocol/**'

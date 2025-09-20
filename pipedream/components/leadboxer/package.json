@@ -1,0 +1,15 @@
+{
+  "name": "@pipedream/leadboxer",
+  "version": "0.0.3",
+  "description": "Pipedream LeadBoxer Components",
+  "main": "leadboxer.app.mjs",
+  "keywords": [
+    "pipedream",
+    "leadboxer"
+  ],
+  "homepage": "https://pipedream.com/apps/leadboxer",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  }
+}

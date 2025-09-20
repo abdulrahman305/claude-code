@@ -1,0 +1,15 @@
+{
+  "name": "@pipedream/cheddar",
+  "version": "0.0.3",
+  "description": "Pipedream Cheddar Components",
+  "main": "cheddar.app.mjs",
+  "keywords": [
+    "pipedream",
+    "cheddar"
+  ],
+  "homepage": "https://pipedream.com/apps/cheddar",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  }
+}

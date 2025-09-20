@@ -1,0 +1,15 @@
+{
+  "name": "@pipedream/caspio",
+  "version": "0.0.2",
+  "description": "Pipedream Caspio Components",
+  "main": "caspio.app.mjs",
+  "keywords": [
+    "pipedream",
+    "caspio"
+  ],
+  "homepage": "https://pipedream.com/apps/caspio",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  }
+}

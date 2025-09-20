@@ -1,0 +1,21 @@
+{
+  "name": "@pipedream/pipedrive",
+  "version": "0.10.3",
+  "description": "Pipedream Pipedrive Components",
+  "main": "pipedrive.app.mjs",
+  "keywords": [
+    "pipedream",
+    "pipedrive"
+  ],
+  "homepage": "https://pipedream.com/apps/pipedrive",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "gitHead": "e12480b94cc03bed4808ebc6b13e7fdb3a1ba535",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@pipedream/platform": "^3.1.0",
+    "html-entities": "^2.6.0",
+    "pipedrive": "^24.1.1"
+  }
+}

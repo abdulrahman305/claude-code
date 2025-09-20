@@ -1,0 +1,20 @@
+{
+  "name": "@pipedream/microsoft_excel",
+  "version": "0.2.0",
+  "description": "Pipedream Microsoft Excel Components",
+  "main": "microsoft_excel.app.mjs",
+  "keywords": [
+    "pipedream",
+    "microsoft_excel"
+  ],
+  "homepage": "https://pipedream.com/apps/microsoft_excel",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@pipedream/platform": "^3.0.3",
+    "json-2-csv": "^5.5.9",
+    "moment": "^2.29.4"
+  }
+}

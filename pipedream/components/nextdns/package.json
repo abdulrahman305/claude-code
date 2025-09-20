@@ -1,0 +1,15 @@
+{
+  "name": "@pipedream/nextdns",
+  "version": "0.0.4",
+  "description": "Pipedream NextDNS Components",
+  "main": "nextdns.app.mjs",
+  "keywords": [
+    "pipedream",
+    "nextdns"
+  ],
+  "homepage": "https://pipedream.com/apps/nextdns",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  }
+}
