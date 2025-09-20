@@ -1,0 +1,15 @@
+{
+  "name": "@pipedream/questionpro",
+  "version": "0.0.3",
+  "description": "Pipedream QuestionPro Components",
+  "main": "questionpro.app.mjs",
+  "keywords": [
+    "pipedream",
+    "questionpro"
+  ],
+  "homepage": "https://pipedream.com/apps/questionpro",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  }
+}

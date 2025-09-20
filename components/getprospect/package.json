@@ -1,0 +1,15 @@
+{
+  "name": "@pipedream/getprospect",
+  "version": "0.0.4",
+  "description": "Pipedream GetProspect Components",
+  "main": "getprospect.app.mjs",
+  "keywords": [
+    "pipedream",
+    "getprospect"
+  ],
+  "homepage": "https://pipedream.com/apps/getprospect",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  }
+}

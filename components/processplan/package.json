@@ -1,0 +1,15 @@
+{
+  "name": "@pipedream/processplan",
+  "version": "0.0.3",
+  "description": "Pipedream ProcessPlan Components",
+  "main": "processplan.app.mjs",
+  "keywords": [
+    "pipedream",
+    "processplan"
+  ],
+  "homepage": "https://pipedream.com/apps/processplan",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  }
+}

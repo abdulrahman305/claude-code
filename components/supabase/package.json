@@ -1,0 +1,20 @@
+{
+  "name": "@pipedream/supabase",
+  "version": "0.3.3",
+  "description": "Pipedream Supabase Components",
+  "main": "supabase.app.mjs",
+  "keywords": [
+    "pipedream",
+    "supabase"
+  ],
+  "homepage": "https://pipedream.com/apps/supabase",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@pipedream/platform": "^3.1.0",
+    "@supabase/supabase-js": "^2.45.6",
+    "csv-parse": "^5.5.6"
+  }
+}

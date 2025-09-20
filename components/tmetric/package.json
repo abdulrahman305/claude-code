@@ -1,0 +1,15 @@
+{
+  "name": "@pipedream/tmetric",
+  "version": "0.0.5",
+  "description": "Pipedream TMetric Components",
+  "main": "tmetric.app.mjs",
+  "keywords": [
+    "pipedream",
+    "tmetric"
+  ],
+  "homepage": "https://pipedream.com/apps/tmetric",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  }
+}

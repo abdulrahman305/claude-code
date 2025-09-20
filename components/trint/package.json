@@ -1,0 +1,15 @@
+{
+  "name": "@pipedream/trint",
+  "version": "0.0.3",
+  "description": "Pipedream Trint Components",
+  "main": "trint.app.mjs",
+  "keywords": [
+    "pipedream",
+    "trint"
+  ],
+  "homepage": "https://pipedream.com/apps/trint",
+  "author": "Pipedream <support@pipedream.com> (https://pipedream.com/)",
+  "publishConfig": {
+    "access": "public"
+  }
+}
