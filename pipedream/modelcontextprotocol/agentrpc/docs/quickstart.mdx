@@ -1,0 +1,95 @@
+---
+title: 'Quickstart'
+description: 'Get started with AgentRPC in minutes'
+icon: 'rocket'
+---
+import RegisterNode from '/snippets/node-register.mdx';
+import RegisterGo from '/snippets/go-register.mdx';
+
+import OpenAIAGents from '/snippets/python-openai-agents.mdx';
+import OpenAICompletions from '/snippets/node-openai-completions.mdx';
+
+### 1. Get an API Key
+
+<Steps>
+  <Step title="Create an account">
+    Visit [AgentRPC Dashboard](https://app.agentrpc.com) and sign up for a free account.
+  </Step>
+  <Step title="Generate an API key">
+    Once logged in, navigate to Cluster Settings > API Keys section and create a new API key.
+  </Step>
+  <Step title="Copy your API key">
+    Copy your API key to use in the next steps. Keep this key secure as it provides access to your AgentRPC account.
+  </Step>
+</Steps>
+
+### 2. Register a Tool
+
+Choose your preferred language to register a tool with AgentRPC:
+
+<Tabs>
+  <Tab title="TypeScript">
+    <RegisterNode />
+  </Tab>
+  <Tab title="Go">
+    <RegisterGo />
+  </Tab>
+</Tabs>
+
+For more detailed examples, check out the SDK repositories:
+- [TypeScript SDK](https://github.com/agentrpc/agentrpc/tree/main/sdk-node)
+- [Go SDK](https://github.com/agentrpc/agentrpc/tree/main/sdk-go)
+- [Python SDK](https://github.com/agentrpc/agentrpc/tree/main/sdk-python)
+
+### 3. Connect to an Agent
+
+<Tabs>
+  <Tab title="OpenAI Completions SDK">
+    <OpenAICompletions />
+  </Tab>
+  <Tab title="OpenAI Agents SDK">
+    <OpenAIAGents />
+  </Tab>
+  <Tab title="Claude MCP">
+    Add the following to your `claude_desktop_config.json`:
+
+    ```json
+    {
+      "mcpServers": {
+        "agentrpc": {
+          "command": "npx",
+          "args": ["-y", "agentrpc", "mcp"],
+          "env": {
+            "AGENTRPC_API_SECRET": "<YOUR_API_SECRET>"
+          }
+        }
+      }
+    }
+    ```
+
+  [More details](https://modelcontextprotocol.io/quickstart/user)
+  </Tab>
+  <Tab title="Claude Cursor">
+    Add the following to your `~/.cursor/mcp.json`:
+
+    ```json
+    {
+      "mcpServers": {
+        "agentrpc": {
+          "command": "npx",
+          "args": ["-y", "agentrpc", "mcp"],
+          "env": {
+            "AGENTRPC_API_SECRET": "<YOUR_API_SECRET>"
+          }
+        }
+      }
+    }
+    ```
+
+    [More details](https://docs.cursor.com/context/model-context-protocol#configuring-mcp-servers)
+  </Tab>
+</Tabs>
+
+### 4. Monitor and Manage Tools
+
+Navigate to the [AgentRPC Dashboard](https://app.agentrpc.com) to monitor tool usage, health, and performance.

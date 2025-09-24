@@ -1,0 +1,6 @@
+[submodule "json-rpc-2.0"]
+	path = json-rpc-2.0
+	url = https://github.com/abdulrahman305/json-rpc-2.0.git
+[submodule "gemini-cli"]
+	path = gemini-cli
+	url = https://github.com/abdulrahman305/gemini-cli.git
