@@ -2,6 +2,7 @@
   "description": "Pipedream stdio and HTTP MCP servers",
   "scripts": {
     "dev:stdio": "bun --watch src/stdio.ts",
+    "prod:stdio": "tsx src/stdio.ts",
     "dev:http": "tsx watch -r dotenv/config src/http.ts",
     "prod:http": "tsx src/http.ts",
     "dev:sse": "pnpm run dev:http",
@@ -9,6 +10,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@azure/msal-node": "^3.8.0",
     "@modelcontextprotocol/sdk": "^1.10.2",
     "@pipedream/sdk": "^1.5.4",
     "@supabase/supabase-js": "^2.49.1",

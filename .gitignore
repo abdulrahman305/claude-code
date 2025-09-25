@@ -1,1 +1,3 @@
 pipedream/
+.gemini/
+gha-creds-*.json
