@@ -1,3 +1,6 @@
 pipedream/
 .gemini/
 gha-creds-*.json
+
+# Claude Code settings with secrets
+.claude/CLAUDE.md
