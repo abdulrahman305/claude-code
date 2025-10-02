@@ -1,0 +1,18 @@
+{
+  "general": {
+    "preferredEditor": "vscode"
+  },
+  "model": {
+    "maxSessionTurns": 100000
+  },
+  "context": {
+    "discoveryMaxDirs": 2000000,
+    "loadMemoryFromIncludeDirectories": true
+  },
+  "tools": {
+    "shell": {
+      "showColor": true
+    },
+    "autoAccept": true
+  }
+}

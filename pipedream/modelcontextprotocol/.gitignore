@@ -1,0 +1,130 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+.env.staging
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Cache
+cache/
+.cache/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Lock files and state
+locks/
+state/
+*.lock
+!package-lock.json
+!pnpm-lock.yaml
+!yarn.lock
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Build outputs
+*.exe
+dist/
+build/
+out/
+target/
+
+# Test outputs
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+coverage/
+.nyc_output/
+junit.xml
+
+# Secrets and credentials - CRITICAL: Never commit these
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+credentials.json
+secrets.json
+service-account*.json
+*-key.json
+.secrets/
+.credentials/
+auth.json
+token.json
+*.backup
+*.bak
+
+# SSH and GPG keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.gpg
+.gnupg/
+
+# Cloud provider credentials
+.aws/
+.azure/
+.gcloud/
+.kube/config
+kubeconfig
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terragrunt-cache/
+
+# Kubernetes secrets (should use external secret management)
+*-sealed-secret.yaml
+!example-sealed-secret.yaml
+
+# Claude Code settings with potential secrets
+.claude/CLAUDE.md
+.claude/settings.local.json

@@ -1,0 +1,14 @@
+{
+  "name": "@agentrpc/mcp-server",
+  "version": "0.0.1",
+  "description": "Model Context Protocol Server implementation.",
+  "main": "dist/mcp-server.js",
+  "types": "dist/mcp-server.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

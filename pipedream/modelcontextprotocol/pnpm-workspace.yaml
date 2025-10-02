@@ -1,0 +1,3 @@
+packages:
+  - 'agentrpc/packages/*'
+  - 'agentrpc/packages/mcp-server'

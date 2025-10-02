@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="21" failures="0" errors="0" time="0.2379095">
+    <testsuite name="src/agent/task.test.ts" timestamp="2025-09-23T13:16:29.509Z" hostname="WIN-33AANMPCPKN" tests="1" failures="0" errors="0" skipped="0" time="0.0121431">
+        <testcase classname="src/agent/task.test.ts" name="Task &gt; scheduleToolCalls should not modify the input requests array" time="0.0106936">
+            <system-out>
+[INFO] 2025-09-23 16:16:28.579 PM -- [Task] Scheduling batch of 1 tool calls.
+[INFO] 2025-09-23 16:16:28.582 PM -- [Task] Scheduler tool calls updated:
+{
+  &quot;0&quot;: &quot;1 (error)&quot;
+}
+[INFO] 2025-09-23 16:16:28.584 PM -- [Task] All tool calls completed by scheduler (batch):
+{
+  &quot;0&quot;: &quot;1&quot;
+}
+
+[INFO] 2025-09-23 16:16:28.584 PM -- [Task] Scheduler tool calls updated:
+
+            </system-out>
+        </testcase>
+    </testsuite>
+    <testsuite name="src/persistence/gcs.test.ts" timestamp="2025-09-23T13:16:29.511Z" hostname="WIN-33AANMPCPKN" tests="10" failures="0" errors="0" skipped="1" time="0.0207316">
+        <testcase classname="src/persistence/gcs.test.ts" name="GCSTaskStore &gt; Constructor &amp; Initialization &gt; should initialize and check bucket existence" time="0.006523">
+        </testcase>
+        <testcase classname="src/persistence/gcs.test.ts" name="GCSTaskStore &gt; Constructor &amp; Initialization &gt; should create bucket if it does not exist" time="0.0021683">
+        </testcase>
+        <testcase classname="src/persistence/gcs.test.ts" name="GCSTaskStore &gt; Constructor &amp; Initialization &gt; should throw if bucket creation fails" time="0.0026965">
+        </testcase>
+        <testcase classname="src/persistence/gcs.test.ts" name="GCSTaskStore &gt; save &gt; should save metadata and workspace" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="src/persistence/gcs.test.ts" name="GCSTaskStore &gt; save &gt; should handle tar creation failure" time="0.0020423">
+        </testcase>
+        <testcase classname="src/persistence/gcs.test.ts" name="GCSTaskStore &gt; load &gt; should load task metadata and workspace" time="0.0023131">
+        </testcase>
+        <testcase classname="src/persistence/gcs.test.ts" name="GCSTaskStore &gt; load &gt; should return undefined if metadata not found" time="0.0011011">
+        </testcase>
+        <testcase classname="src/persistence/gcs.test.ts" name="GCSTaskStore &gt; load &gt; should load metadata even if workspace not found" time="0.0011331">
+        </testcase>
+        <testcase classname="src/persistence/gcs.test.ts" name="NoOpTaskStore &gt; should not call the real store&apos;s save method" time="0.0002774">
+        </testcase>
+        <testcase classname="src/persistence/gcs.test.ts" name="NoOpTaskStore &gt; should delegate the load method to the real store" time="0.0002547">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/http/app.test.ts" timestamp="2025-09-23T13:16:29.545Z" hostname="WIN-33AANMPCPKN" tests="5" failures="0" errors="0" skipped="0" time="0.1200863">
+        <testcase classname="src/http/app.test.ts" name="E2E Tests &gt; should create a new task and stream status updates (text-content) via POST /" time="0.0591796">
+        </testcase>
+        <testcase classname="src/http/app.test.ts" name="E2E Tests &gt; should create a new task, schedule a tool call, and wait for approval" time="0.0141457">
+        </testcase>
+        <testcase classname="src/http/app.test.ts" name="E2E Tests &gt; should handle multiple tool calls in a single turn" time="0.0091625">
+        </testcase>
+        <testcase classname="src/http/app.test.ts" name="E2E Tests &gt; should handle tool calls that do not require approval" time="0.0105409">
+        </testcase>
+        <testcase classname="src/http/app.test.ts" name="E2E Tests &gt; should bypass tool approval in YOLO mode" time="0.0156197">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/http/endpoints.test.ts" timestamp="2025-09-23T13:16:29.547Z" hostname="WIN-33AANMPCPKN" tests="5" failures="0" errors="0" skipped="0" time="0.0849485">
+        <testcase classname="src/http/endpoints.test.ts" name="Agent Server Endpoints &gt; should create a new task via POST /tasks" time="0.0375969">
+        </testcase>
+        <testcase classname="src/http/endpoints.test.ts" name="Agent Server Endpoints &gt; should get metadata for a specific task via GET /tasks/:taskId/metadata" time="0.0099889">
+        </testcase>
+        <testcase classname="src/http/endpoints.test.ts" name="Agent Server Endpoints &gt; should get metadata for all tasks via GET /tasks/metadata" time="0.0082372">
+        </testcase>
+        <testcase classname="src/http/endpoints.test.ts" name="Agent Server Endpoints &gt; should return 404 for a non-existent task" time="0.0038808">
+        </testcase>
+        <testcase classname="src/http/endpoints.test.ts" name="Agent Server Endpoints &gt; should return agent metadata via GET /.well-known/agent-card.json" time="0.0042049">
+        </testcase>
+    </testsuite>
+</testsuites>

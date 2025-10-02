@@ -1,0 +1,19 @@
+{
+  "name": "json-rpc-client-example",
+  "version": "1.0.0",
+  "description": "A conceptual example of a JSON-RPC client for gemini-cli.",
+  "main": "json-rpc-client-example.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/json-rpc-client-example.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-rpc-2.0": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}

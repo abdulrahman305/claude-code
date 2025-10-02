@@ -1,0 +1,13 @@
+{
+  "general": {
+    "preferredEditor": "vscode"
+  },
+  "mcpServers": {
+    "modelcontextprotocol": {
+      "transport": "http-sse",
+      "options": {
+        "url": "http://localhost:3010/v1/1234"
+      }
+    }
+  }
+}
