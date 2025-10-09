@@ -1,0 +1,20 @@
+# GitHub API
+aiohttp==3.9.1
+
+# Quality analysis
+radon==6.0.1
+
+# Caching
+aiosqlite==0.19.0
+
+# Process management
+psutil==5.9.6
+
+# Note: Removed dependencies
+# - PyGithub (not used, aiohttp handles GitHub API directly)
+# - asyncio-mqtt (not used anywhere in codebase)
+# - pyyaml (not used anywhere in codebase)
+# - python-dotenv (replaced with native implementation in lib/env_loader.py)
+# - safety (replaced with local vulnerability scanner in lib/vuln_scanner.py)
+# - argparse (built-in to Python, no need to specify)
+# - requests (not used, aiohttp used instead)

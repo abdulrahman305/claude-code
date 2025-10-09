@@ -1,0 +1,201 @@
+{
+  "timestamp": "2025-10-09T06:23:53.313069+00:00",
+  "fork_stats": {
+    "total_forks": 1274,
+    "checked": 1274,
+    "behind": 0,
+    "synced": 0,
+    "failed": 0,
+    "errors": []
+  },
+  "dependency_stats": {
+    "scanned": 100,
+    "total_alerts": 941,
+    "repos_with_alerts": [
+      {
+        "name": "2024",
+        "alert_count": 30
+      },
+      {
+        "name": "agent-gpt",
+        "alert_count": 30
+      },
+      {
+        "name": "ai",
+        "alert_count": 30
+      },
+      {
+        "name": "AI-trader",
+        "alert_count": 2
+      },
+      {
+        "name": "astradbgpt",
+        "alert_count": 6
+      },
+      {
+        "name": "autogpt",
+        "alert_count": 30
+      },
+      {
+        "name": "blog-with-comments",
+        "alert_count": 1
+      },
+      {
+        "name": "chatbot",
+        "alert_count": 30
+      },
+      {
+        "name": "chatbot-ui",
+        "alert_count": 30
+      },
+      {
+        "name": "chatbot-ui_graph",
+        "alert_count": 30
+      },
+      {
+        "name": "chatgpt-vercel",
+        "alert_count": 30
+      },
+      {
+        "name": "chatpad",
+        "alert_count": 30
+      },
+      {
+        "name": "codespaces-react",
+        "alert_count": 22
+      },
+      {
+        "name": "django-hello-world",
+        "alert_count": 3
+      },
+      {
+        "name": "django_hello_world",
+        "alert_count": 3
+      },
+      {
+        "name": "django_test",
+        "alert_count": 13
+      },
+      {
+        "name": "empathic-voice-interface-starter",
+        "alert_count": 22
+      },
+      {
+        "name": "envshare",
+        "alert_count": 30
+      },
+      {
+        "name": "g",
+        "alert_count": 30
+      },
+      {
+        "name": "gpt",
+        "alert_count": 30
+      },
+      {
+        "name": "gpt_bot",
+        "alert_count": 30
+      },
+      {
+        "name": "kubernetes-ai",
+        "alert_count": 1
+      },
+      {
+        "name": "Lang",
+        "alert_count": 30
+      },
+      {
+        "name": "langchain-starter",
+        "alert_count": 25
+      },
+      {
+        "name": "Langchain_gcp",
+        "alert_count": 30
+      },
+      {
+        "name": "LangServe-Railway",
+        "alert_count": 30
+      },
+      {
+        "name": "marvelous-hickory-cb523",
+        "alert_count": 30
+      },
+      {
+        "name": "monorepo",
+        "alert_count": 18
+      },
+      {
+        "name": "my-amazing-blueprint",
+        "alert_count": 1
+      },
+      {
+        "name": "my-awesome-chatbot",
+        "alert_count": 9
+      },
+      {
+        "name": "my-awesome-pinecone-vercel-project",
+        "alert_count": 20
+      },
+      {
+        "name": "next-netlify-starter",
+        "alert_count": 7
+      },
+      {
+        "name": "nextjs",
+        "alert_count": 19
+      },
+      {
+        "name": "nextjs-AI",
+        "alert_count": 30
+      },
+      {
+        "name": "nextjs-ai-chatbot",
+        "alert_count": 10
+      },
+      {
+        "name": "nextjs-chat",
+        "alert_count": 30
+      },
+      {
+        "name": "nextjs-chat2233",
+        "alert_count": 30
+      },
+      {
+        "name": "nextjs-chat3",
+        "alert_count": 30
+      },
+      {
+        "name": "nextjs-ollama-llm-ui",
+        "alert_count": 12
+      },
+      {
+        "name": "nextjs-postgres-auth-starter",
+        "alert_count": 24
+      },
+      {
+        "name": "nextjs-subscription-payments",
+        "alert_count": 29
+      },
+      {
+        "name": "ollama-nextjs",
+        "alert_count": 23
+      },
+      {
+        "name": "outlook-financial-report-addin",
+        "alert_count": 3
+      },
+      {
+        "name": "pinecone-vercel-ai",
+        "alert_count": 15
+      },
+      {
+        "name": "qenex-defi",
+        "alert_count": 21
+      },
+      {
+        "name": "qenex-os",
+        "alert_count": 2
+      }
+    ]
+  }
+}
